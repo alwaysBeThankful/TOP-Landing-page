@@ -1,0 +1,92 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  /* My CSS below */
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  /* My CSS below */
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* ======== Begin CSS ======== */
+
+/* -- Hero section -- */
+
+.hero {
+    background-color: #1f2937;
+}
+
+.nav-bar, .nav-bar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+}
+
+.nav-bar h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav-bar ul {
+    margin-right: 2px;
+    gap: 16px;
+    color: #E5E7EB;
+}
+
+.hero-content {
+    display: flex;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 800px;
+    color: #F9FAF8
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.rectangle {
+    height: 200px;
+    width: 700px;
+    background-color: #555;
+}
+
+.mid-section {
+    background-color: #F9FAF8;
+}
