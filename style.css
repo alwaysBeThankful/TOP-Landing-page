@@ -115,6 +115,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .mid-section {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
     max-width: 1080px;
 }
 
@@ -142,4 +143,36 @@ p, h1, h2, h3, h4, h5, h6 {
     width: 150px;
     text-align: center;
     margin-top: 4px;
+}
+
+/* -- Quotation section -- */
+.quote-section {
+    height: 450px;
+    background-color: #E5E7EB;
+    margin-top: 80px;
+}
+
+.content {
+    width: 900px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+
+}
+
+.mj {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    color: #1f2937;
+    margin-top: 0;
 }
