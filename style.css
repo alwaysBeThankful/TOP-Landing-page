@@ -33,7 +33,7 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-/* ======== Begin CSS ======== */
+/* ======== Begin CSS! :) ======== */
 
 /* -- Hero section -- */
 .hero {
@@ -93,7 +93,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .rectangle {
     display: flex;
-    height: 250px;
+    height: 265px;
     width: 500px;
     background-color: #555;
     margin-left: auto;
@@ -109,4 +109,37 @@ p, h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+/* -- Mid section -- */
+.mid-section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+}
+
+.mid-section h2 {
+    text-align: center;
+    margin: 35px 0;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.mid-images {
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+}
+
+.mid-section p {
+    width: 150px;
+    text-align: center;
+    margin-top: 4px;
 }
