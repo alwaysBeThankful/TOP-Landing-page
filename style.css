@@ -197,3 +197,19 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #F9FAF8;
     margin-left: 55px;
 }
+
+/* -- Footer section -- */
+.footer-container {
+    background-color: #1F2937;
+    height: 75px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    align-self: center;
+    color: #F9FAF8;
+}
