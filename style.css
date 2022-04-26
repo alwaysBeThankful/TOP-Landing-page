@@ -147,7 +147,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* -- Quotation section -- */
 .quote-section {
-    height: 450px;
+    height: 350px;
     background-color: #E5E7EB;
     margin-top: 80px;
 }
@@ -175,4 +175,25 @@ p, h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     color: #1f2937;
     margin-top: 0;
+}
+
+/* -- Call to Action section -- */
+.cta {
+    height: 180px;
+    margin-top: 80px;
+}
+
+.cta-box {
+    padding: 30px;
+    margin: 0 auto;
+    height: 120px;
+    width: 900px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #3882f6;
+}
+
+.cta-text {
+    color: #F9FAF8;
+    margin-left: 55px;
 }
